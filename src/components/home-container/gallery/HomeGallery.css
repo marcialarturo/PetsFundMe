@@ -1,0 +1,101 @@
+.root {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    overflow: hidden;
+}
+
+.imageList {
+    width: 500;
+    height: 450;
+}
+
+.icon {
+    color: 'rgba(255, 255, 255, 0.001)';
+}
+
+.view-btn {
+    text-transform: capitalize;
+    border-color: #9d9e9b;
+}
+
+.gridList {
+    width: 500;
+    height: 700;
+}
+
+.outer {
+    display: flex;
+    justify-content: normal;
+    align-items: center;
+}
+
+.home-title {
+    padding-left: 1rem;
+    font-size: 100px;
+    font-weight: bold;
+}
+
+.home-text-intro {
+    padding-top: 2.5rem;
+    padding-left: 5rem;
+    font-size: 1.2rem;
+    color: #4a4644;
+    text-align: justify;
+    line-height: 1.4;
+}
+
+.home2-text-intro {
+    padding-left: 5rem;
+    font-size: 1.2rem;
+    color: #4a4644;
+    text-align: justify;
+    line-height: 1.4;
+}
+
+.search-form {
+    padding-top: 2rem;
+    margin: 0 auto;
+}
+
+.pseudo-search {
+    border-radius: 100px;
+    padding: 10px 15px;
+    background-color: white;
+    font-size: 1.1rem;
+}
+
+.pseudo-search input {
+    border: 0;
+    background-color: white;
+    width: 90%;
+}
+
+input:focus {
+    outline: none;
+}
+
+.pseudo-search button,
+i {
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.pseudo-search select {
+    border: none;
+}
+
+.search-clear {
+    font-size: 12px;
+    color: #4a4644;
+}
+
+.search-icon {
+    font-size: 1.2rem;
+    padding-left: 8px;
+}
+
+.logo-hero {
+    width: 30rem;
+}

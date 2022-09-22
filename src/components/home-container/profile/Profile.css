@@ -1,0 +1,133 @@
+.root-pet-details {
+    flex-grow: 1;
+    min-height: 80vh;
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+}
+
+.grid-container {
+    text-align: center;
+    background-color: #e3f9fb6e;
+}
+
+.img {
+    width: 70%;
+    margin: auto;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    justify-content: space-between;
+    display: inline-flex;
+}
+
+.like-btn {
+    text-transform: capitalize;
+}
+
+.details-text {
+    text-align: initial;
+    padding-left: 15%;
+}
+
+.wallet-btn {
+    float: right;
+    margin-bottom: 1rem;
+    background-color: #c329c8;
+    font-weight: 900;
+}
+
+.code-hash {
+    width: 80%;
+    padding: 1rem;
+    word-break: break-word;
+}
+
+.text-field {
+    width: 80%;
+}
+
+.inline {
+    display: inline;
+    margin-top: 3rem;
+}
+
+.profile-root {
+    display: grid;
+    padding: 1rem;
+}
+
+.profile-username {
+    padding-top: 3.5rem;
+    text-align: start;
+    padding-left: 1rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.profile-wallet {
+    text-align: justify;
+    padding: 1rem;
+    font-size: 0.8rem;
+}
+
+.profile-wallet-copy {
+    width: 20px;
+}
+
+.profile-locked {
+    width: 100%;
+}
+
+.prof-description {
+    text-align: start;
+    padding: 1rem;
+    font-size: 1rem;
+    padding-top: 0;
+}
+
+.profile-chip {
+    margin: 0.5rem;
+    justify-content: flex-start;
+    padding: 1.3rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 80%;
+    background-color: white;
+}
+
+.profile-avatar {
+    width: fit-object;
+}
+
+.title-fundraiser {
+    font-size: 2rem;
+    line-height: 1.25;
+    font-weight: 750;
+}
+
+.profile-icon {
+    width: 70px;
+    border-radius: 50%;
+    padding-right: 1rem;
+}
+
+.donation-img {
+    width: 100%;
+}
+
+.foundraiser-img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.outer {
+    display: flex;
+}
+
+.grid-rigth-side {
+    float: right;
+}

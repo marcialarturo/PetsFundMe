@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-image: url('../src/images/phase-bg.png');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+label+.MuiInput-formControl {
+    margin-top: 16px;
+    color: #9c9898;
+    font-size: 0.76rem;
+}
