@@ -1,0 +1,17 @@
+.card-header-swap {
+    text-align: initial;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.swap-msg-btn {
+    margin-left: 12rem;
+}
+
+.swap-card {
+    padding: 1.5rem !important;
+    border-radius: 16px;
+    box-shadow: none;
+    background-color: #fff9f7;
+}
